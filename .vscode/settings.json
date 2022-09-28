@@ -1,3 +1,6 @@
 {
-  "deno.enable": true
+  "deno.enable": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/benjaminbellamy/Code/iphone-plz/.github/workflows/deploy.yml"
+  }
 }

@@ -1,13 +1,14 @@
-name: "schedule"
+name: Schedule notification
   
 on:
   schedule:
     - cron: '0 10-18 * * *'
-  
+
 jobs:
-  run-updater:
+  notify:
     runs-on: ubuntu-latest
+
     steps:
-    - name: REST API with curl
-      run: |
-        curl -X GET "https://whatyoubendoing-iphone-plz.deno.dev?sms=1"
+      - name: Call notification API 
+        run: |
+          curl -X GET "https://whatyoubendoing-iphone-plz.deno.dev?sms=1"
