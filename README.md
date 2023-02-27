@@ -4,7 +4,7 @@ A quick prototype to notify me when a iPhone 14 Pro becomes available. It [runs 
 
 ### Technology
 - [TypeScript](https://www.typescriptlang.org/)
-- [GitHub actions] (https://github.com/features/actions) for scheduling & deploying
+- [GitHub actions](https://github.com/features/actions) for scheduling & deploying
 - [Deno deploy](https://deno.com/deploy)
 - [Twilio](https://www.twilio.com/docs/sms/send-messages) for sending SMS 💬
 
