@@ -1,6 +1,6 @@
 # iphone-plz
 
-A quick prototype to notify me when a iPhone 14 Pro becomes available. It [runs every hour during apples opening times (10am - 6pm)](/.github/workflows/schedule.yml) and sends a SMS when one becomes available.
+When the 14 pros came out they were pretty popylar. This was a quick prototype to notify me when an iPhone 14 Pro became available. It checks [every hour](/.github/workflows/schedule.yml#L5) during apples opening times (10am - 6pm) and sends a SMS if/when one is available.
 
 ### Technology
 - [TypeScript](https://www.typescriptlang.org/)
